@@ -1,0 +1,15 @@
+{
+  "name": "remnawave-telegram-widget",
+  "version": "1.0.0",
+  "description": "A subscription card for Remnawave VPN clients that lives inside a Telegram message (Telegram Widgets + Cloudflare Workers)",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs && wrangler deploy"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0"
+  }
+}

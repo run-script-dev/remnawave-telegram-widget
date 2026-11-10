@@ -1,0 +1,20 @@
+name = "remnawave-telegram-widget"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Secrets (set with `npx wrangler secret put NAME`): BOT_TOKEN, PANEL_URL, PANEL_TOKEN, PANEL_COOKIE
+# Plain settings:
+[vars]
+BRAND = "My VPN"
+# DEMO = "1"
+# ACCENT = "#5B8CFF"
+# TARIFFS = '[{"title":"1 month","days":30,"stars":150}]'
+
+# Orders database, needed only for Stars payments. Create it with
+#   npx wrangler d1 create remnawave-telegram-widget
+# then uncomment and paste the database_id it prints.
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "remnawave-telegram-widget"
+# database_id = "PASTE-ID-HERE"
