@@ -11,7 +11,10 @@ for the [Remnawave](https://github.com/remnawave) panel. Runs on the free plan o
 
 ![The card: subscription, plans, payment, updated card](demo.gif)
 
-[Описание на русском](README.ru.md)
+**Live demo:** open [@runscriptai](https://t.me/runscriptai) and send `/vpn`. The bot runs in demo
+mode: it shows a made-up subscription and nothing is charged.
+
+[README in Russian](README.ru.md)
 
 ## What clients get
 
